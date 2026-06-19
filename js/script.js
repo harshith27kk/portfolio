@@ -42,4 +42,4 @@ const obs = new IntersectionObserver(entries => {
 document.querySelectorAll('.skill-pill, .exp-card').forEach((el, i) => {
   el.style.transitionDelay = `${(i % 8) * 50}ms`;
   obs.observe(el);
-});
+}); 
